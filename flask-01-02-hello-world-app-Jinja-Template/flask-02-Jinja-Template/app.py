@@ -14,7 +14,7 @@ def function():
     return render_template("body.html", num1 = variable1, num2= variable2, multp = variable1 * variable2)
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=host="0.0.0.0", port=80)
 
 
 
